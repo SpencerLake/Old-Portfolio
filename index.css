@@ -1,5 +1,9 @@
 /* MISC ========================================================================================================================================================================= */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     max-width: 100%;
@@ -82,6 +86,12 @@ body {
     font-size: 3vh;
     color: black;
     opacity: 47%;
+    transition: all .2s ease-in-out;
+}
+
+#scroll-indicator:hover {
+    transform: scale(1.2);
+    cursor: pointer
 }
 
 
