@@ -26,10 +26,12 @@
     <main>
         <div id="contact-skills-section">
             <div id="contact">
-                <h2 class="content-title-green-side">CONTACT ME HERE</h2>
+                <h2 class="content-title-green-side">CONTACT INFO</h2>
+                <h3 class="content-subtitles-green-side">LinkedIn</h3>
+                <a  id="linkedin-link" href="https://www.linkedin.com/in/spencer-lake">spencer-lake</a>
             </div>
             <div id="skills">
-                <h2 class="content-title-green-side">MY SKILLS YO</h2>
+                <h2 class="content-title-green-side">MY SKILLS</h2>
                 <br>
                 <h3 class="content-subtitles-green-side">HARD SKILLS</h3>
                 <ul>
@@ -42,22 +44,53 @@
                     <li class="content-text-green-side">Communication</li>
                     <li class="content-text-green-side">Teamwork</li>
                     <li class="content-text-green-side">Self-Driven</li>
-                    <li class="content-text-green-side"></li>
+                    <li class="content-text-green-side">Abilty to learn</li>
                 </ul>
+            </div>
+            <div id="linkedin-github">
+                <a class="social-icon" target="_blank" href="https://github.com/SpencerLake">
+                    <ion-icon name="logo-github" class="icons"></ion-icon>
+                </a>
+                <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/spencer-lake">
+                    <ion-icon name="logo-linkedin" class="icons"></ion-icon>
+                </a>
             </div>
         </div>
 
         <div id="projects-section">
             <h2 class="content-title">PROJECTS</h2>
             <div id="projects">
-                <a class="outside-links" href="https://vain-climber-tracker.herokuapp.com/" target="_blank">a</a>
+                <div class="project-div">
+                    <a class="outside-links" target="_blank" href="https://vain-climber-tracker.herokuapp.com">VAIN CLIMBER TRACKER</a>
+                    <div id="vain-project-image">
+                        <img id="vc-pic" src="vainClimberTrackerPic.png">
+                    </div>
+                    <p class="proj-description">
+                        A basic application that allows a climber to keep track of
+                        climbs they have accomplished and want to remember. Click
+                        <a href="">here</a> to see a demo
+                    </p>
+                </div>
             </div>
         </div>
 
         <div id="about-section">
-            <h2 class="content-title" id="about">ABOUT</h2>
+            <h2 class="content-title" id="about">ABOUT ME</h2>
+            <div id="profile-pic">
+                <img id="pp" src="profilePic.jpg">
+            </div>
+            <p id="about-content">
+                For the duration on my working career I've been a Jack-Of-All-Trades
+                going from a salesman to a caregiver for men with mental
+                disabilities. Recently I stumbled upon the world of coding
+                and instantly fell in love! I am a Software Engineer and
+                currently attending the DevMountain school. I am really excited
+                to begin my career in Web Development!
+            </p>
         </div>
     </main>
     <script src='index.js'></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
