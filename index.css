@@ -94,6 +94,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 12vh;
     margin-top: 20vh;
+    transition: all .2s ease-in-out;
 }
 
 #right-intro {
@@ -281,7 +282,7 @@ main {
     font-family: 'Roboto', sans-serif;
 }
 
-.demo-link {
+#demo-link {
     color:black;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;    
@@ -289,18 +290,18 @@ main {
     transition: all .2s ease-in-out;
 }
 
-.demo-link:visited {
+#demo-link:visited {
     color: black;
     text-decoration: none;
 }
 
-.demo-link:hover {
+#demo-link:hover {
     transform: scale(2);
     cursor: pointer;
     text-decoration: none;
 }
 
-.demo-link:active {
+#demo-link:active {
     color: black;
     text-decoration: none;
 }
