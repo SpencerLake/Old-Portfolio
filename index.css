@@ -21,6 +21,7 @@ body {
 .outside-links {
     color:black;
     text-decoration: none;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 3vh;
     display: flex;
@@ -70,7 +71,7 @@ body {
 
 #intro-page {
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     height: 100vh;
     width: 100vw;
@@ -84,15 +85,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
-    width: 50vw;
+    height: 50vh;
+    width: 100vw;
     background-color: #3D4D2E;
 }
 
 #spencer {
     color: #DEDACE;
     font-family: 'Roboto', sans-serif;
-    font-size: 12vh;
+    font-size: 10vh;
     margin-top: 20vh;
     transition: all .2s ease-in-out;
 }
@@ -102,13 +103,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    width: 50vw;
-    height: 100vh;
+    width: 100vw;
+    height: 50vh;
 }
 
 #lake {
     font-family: 'Roboto', sans-serif;
-    font-size: 12vh;
+    font-size: 10vh;
     margin-bottom: 20vh;
     color: #3D4D2E;
 }
@@ -140,23 +141,24 @@ body {
 
 main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
 }
 
 
 /* Contact and Skills Section =================================================================================================================================================== */
 
 #contact-skills-section {
-    width: 25vw;
+    width: 33%;
+    height: 100vh;
     background-color: #3D4D2E;
+    flex: 1 1 150px;
 }
 
 #contact {
     width: 100%;
     height: 25%;
-    margin-top: 5vh;
 }
 
 #skills {
@@ -194,7 +196,6 @@ main {
     flex-direction: row;
     justify-content:center;
     align-items: center;
-    margin-top: 12vh;
 }
 
 #linkedin-link {
@@ -244,14 +245,18 @@ main {
 /* Projects Section ============================================================================================================================================================= */
 
 #projects-section {
-    width: 50vw;
+    width: 34%;
+    height: 100vh;
     display: flex;
+    flex: 1 1 150px;
     flex-direction: column;
     align-items: center;
 }
 
 #projects {
+    display: flex;
     margin-top: 6vh;
+    justify-content: center;
 }
 
 #vain-project-image {
@@ -264,13 +269,13 @@ main {
 }
 
 #vc-pic {
-    height: 100%;
+    width: 100%;
     border-radius: 3px;
 }
 
 .project-div {
     height: 40vh;
-    width: 35vw;
+    width: 80%;
     display: flex; 
     flex-direction: column;
     align-items: center;
@@ -309,8 +314,9 @@ main {
 /* About Section ================================================================================================================================================================ */
 
 #about-section {
-    width: 25vw;
+    width: 33%;
     background-color: #DEDACE;
+    flex: 1 1 150px;
 }
 
 #about {
