@@ -222,6 +222,7 @@ main {
 #resume-pic {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 #resume-img {
