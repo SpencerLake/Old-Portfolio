@@ -56,6 +56,58 @@ body {
     color: black;
 }
 
+.res-page-res {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#resume-page-res {
+    flex: 1 1 50;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Header ====================================================================================================================================================================== */
+
+header {
+    height: 10%;
+    width: 100%;
+}
+
+nav {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.nav-options {
+    text-decoration: none;
+    color: #3D4D2E;
+    transition: 1.2s;
+}
+
+.nav-options:active {
+    text-decoration: none;
+    color: #3D4D2E;
+}
+
+.nav-options:hover {
+    text-decoration: none;
+    color: #3D4D2E; 
+    transform: scale(2);
+}
+
+.nav-options:visited {
+    text-decoration: none;
+    color: #3D4D2E;
+}
+
+.back-arrow {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vh;
+    color: #3D4D2E;
+}
 
 
 
@@ -65,7 +117,6 @@ body {
 #intro-page-div {
     display: flex;
     flex-direction: column;
-
     height: 100vh;
 }
 
@@ -158,7 +209,27 @@ main {
 
 #contact {
     width: 100%;
-    height: 25%;
+    height: 15%;
+}
+
+#resume {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#resume-pic {
+    display: flex;
+    justify-content: center;
+}
+
+#resume-img {
+    margin: auto;
+    width: 15%;
+    border: #3D4D2E;
+    border-style: solid;
+    border-radius: 5px;
 }
 
 #skills {
