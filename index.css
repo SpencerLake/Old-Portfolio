@@ -68,6 +68,13 @@ body {
     max-width: 1000px;
 }
 
+a {
+    color:#DEDACE;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    transition: .2s;
+}
+
 /* Header ====================================================================================================================================================================== */
 
 header {
@@ -409,7 +416,7 @@ main {
 }
 
 #about {
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     color: #3D4D2E;
 }
 
