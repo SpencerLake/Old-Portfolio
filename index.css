@@ -256,9 +256,17 @@ main {
     transform: scale(1.2);
 }
 
+.hard-skills-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 #skills {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 5vh;
 }
 
@@ -284,7 +292,7 @@ main {
 .content-text-green-side {
     color:#DEDACE;
     font-family: 'Roboto', sans-serif;
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 
 #linkedin-github {
@@ -351,8 +359,10 @@ main {
 
 #projects {
     display: flex;
+    flex-direction: column;
     margin-top: 6vh;
     justify-content: center;
+    align-items: center;
 }
 
 #vain-project-image {
@@ -365,6 +375,7 @@ main {
 }
 
 #vc-pic {
+    height: 100%;
     width: 100%;
     border-radius: 3px;
 }
